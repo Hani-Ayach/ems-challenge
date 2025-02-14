@@ -18,29 +18,56 @@ const db = new sqlite3.Database(sqlitePath);
 
 const employees = [
   {
-    full_name: 'John Doe'
+    full_name: 'John Doe',
+    email:'test@gmail.com',
+    phone_number:'76666666',
+    date_of_birthday:'',
+    job_title:'Full Stack Developer',
+    department_name:'Development',
+    salary:500,
+    start_date:'2025-02-11',
+    end_date:''
   },
   {
-    full_name: 'Jane Smith'
+    full_name: 'Jane Smith',
+    email:'test@gmail.com',
+    phone_number:'76666666',
+    date_of_birthday:'',
+    job_title:'Full Stack Developer',
+    department_name:'Development',
+    salary:500,
+    start_date:'2025-02-11',
+    end_date:''
   },
   {
-    full_name: 'Alice Johnson'
+    full_name: 'Alice Johnson',
+    email:'test@gmail.com',
+    phone_number:'76666666',
+    date_of_birthday:'',
+    job_title:'Full Stack Developer',
+    department_name:'Development',
+    salary:500,
+    start_date:'2025-02-11',
+    end_date:''
   },
 ];
 
 const timesheets = [
   {
     employee_id: 1,
+    work_summary:'some tasks',
     start_time: '2025-02-10 08:00:00',
     end_time: '2025-02-10 17:00:00',
   },
   {
     employee_id: 2,
+    work_summary:'some tasks',
     start_time: '2025-02-11 12:00:00',
     end_time: '2025-02-11 17:00:00',
   },
   {
     employee_id: 3,
+    work_summary:'some tasks',
     start_time: '2025-02-12 07:00:00',
     end_time: '2025-02-12 16:00:00',
   },
